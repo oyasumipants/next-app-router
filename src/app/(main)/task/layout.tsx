@@ -1,4 +1,4 @@
-const layout = ({
+const TaskLayout = ({
     children,
   }: Readonly<{
     children: React.ReactNode;
@@ -11,4 +11,4 @@ const layout = ({
   )
 }
 
-export default layout
+export default TaskLayout

@@ -2,7 +2,11 @@
 
 const ClientComponent = () => {
     console.log('ClientComponent')
-    return ( <div> ClientComponent </div> )
+    return ( 
+        <div> 
+            ClientComponent
+        </div>
+    )
 }
 
 export default ClientComponent

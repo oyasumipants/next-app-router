@@ -3,6 +3,7 @@ import { Task } from "@/app/api/tasks/route";
 const getTasks = async () => {
   const response = await fetch('http://localhost:3000/api/tasks', {
     method: 'GET',
+    cache: 'no-store',
   });
   return await response.json();
 }
